@@ -7,11 +7,11 @@ Created on Sun Aug 23 21:12:55 2020
 """
 
 # Change me
-homedir = '/Users/markusschwedeler/Projects/firmlevelrisk/'
+
 
 # Modules
 import os
-os.chdir(homedir)
+
 import sys
 if not 'code/' in sys.path:
     sys.path.append('code/')
